@@ -116,7 +116,7 @@ function updateMenu() {
 function buildSettings() {
     Settings.config(
         { 
-            url: 'https://ahenry91.github.io/pebble_url_launcher/index.html?json=' + encodeURIComponent(JSON.stringify(Settings.option("urls"))),
+            url: 'https://andymitchhank.github.io/pebble_url_launcher/index.html?json=' + encodeURIComponent(JSON.stringify(Settings.option("urls"))),
         },
         function(e) {
             var config_data = JSON.parse(decodeURIComponent(e.response));
